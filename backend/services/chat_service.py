@@ -1,4 +1,4 @@
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_openai import ChatOpenAI
 from processors.document_processor import LawDocumentProcessor
 from config import SYSTEM_PROMPT
